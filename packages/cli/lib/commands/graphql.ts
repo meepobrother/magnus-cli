@@ -7,11 +7,13 @@ import { ensureDirSync, writeFileSync } from 'fs-extra';
 })
 export class GraphqlCommand {
     @Option({
-        alias: 'i'
+        alias: 'i',
+        defaultValue: `main.ts`
     })
     input: string = 'main.ts';
     @Option({
-        alias: 'o'
+        alias: 'o',
+        defaultValue: `notadd.graphql`
     })
     output: string = 'notadd.graphql';
     @Action()
@@ -22,6 +24,8 @@ export class GraphqlCommand {
             ensureDirSync(dirname(output))
             const graphql = toGraphql(join(root, this.input));
             writeFileSync(output, graphql)
-        } catch (e) { }
+        } catch (e) { 
+            console.log(`${e.message}`)
+        }
     }
 }
