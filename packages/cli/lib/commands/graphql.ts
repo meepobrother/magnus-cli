@@ -26,6 +26,7 @@ export class GraphqlCommand {
             writeFileSync(output, graphql)
         } catch (e) { 
             console.log(`${e.message}`)
+            throw e;
         }
     }
 }
