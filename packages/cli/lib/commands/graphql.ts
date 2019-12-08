@@ -1,5 +1,7 @@
 import { Command, Option, Action } from '@nger/cli';
 import { toGraphql } from '@nger/ast.ts-graphql';
+import { join, dirname } from 'path';
+import { ensureDirSync, writeFileSync } from 'fs-extra';
 @Command({
     name: 'graphql'
 })
@@ -12,10 +14,14 @@ export class GraphqlCommand {
         alias: 'o'
     })
     output: string = 'notadd.graphql';
-
     @Action()
     createGraphql() {
-        const root = process.cwd()
-        toGraphql()
+        try {
+            const root = process.cwd()
+            const output = join(root, this.output);
+            ensureDirSync(dirname(output))
+            const graphql = toGraphql(join(root, this.input));
+            writeFileSync(output, graphql)
+        } catch (e) { }
     }
 }
