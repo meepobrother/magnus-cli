@@ -10,54 +10,54 @@
     is-absolute "^1.0.0"
     is-negated-glob "^1.0.0"
 
-"@nger/ast.graphql@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@nger/ast.graphql/-/ast.graphql-1.0.5.tgz#a3019545769fb8f1256c2a09956b78f028d12fc7"
-  integrity sha512-pw1RpJ6BAcrILac0ciCCbfpMo2llkX3wHR9AhE2cQzADSMDY3KbgQA+Do5Rvhwx5sqCuScw7T9Yos9qQOKeB3w==
+"@nger/ast.graphql@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@nger/ast.graphql/-/ast.graphql-1.1.1.tgz#3a3289b1aad100ad811a16f23d4b2bbba261fd46"
+  integrity sha512-Z80T1vLkXwqPvjGBbtcukR8yImN5prfvl35s8EBHOW5HJ7xXWmSHEo2syOYk2JCcxqQZZMP/eOGX87YbABkEvA==
   dependencies:
-    "@nger/decorator" "^1.0.1"
-    "@nger/plain" "^1.0.27"
+    "@nger/decorator" "^1.1.1"
+    "@nger/plain" "^1.1.1"
     typescript "^3.7.3"
 
-"@nger/ast.ts-graphql@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@nger/ast.ts-graphql/-/ast.ts-graphql-1.0.5.tgz#bd992bc5ec8c273b74a985cbbfb29e7a4bb8cb1f"
-  integrity sha512-1RYbdLyjcuU2tNSa7tXW9b0RyAzef/VrhFEYzsIJlWzJ49iMUupnTgoeKr+3ys0ufF5FNWayFT2iNHTNaGENzQ==
+"@nger/ast.ts-graphql@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@nger/ast.ts-graphql/-/ast.ts-graphql-1.1.2.tgz#c3ada2abe95156d76a4f6ec84ff06728d8098fd2"
+  integrity sha512-NrG8UorzqZFMCkMRxituXrXyUJT9vSWrt68PbHujSG6sH8nRVvwbV0SJoIziQ3lDEfCurzIc18jQIgUn0HXsvg==
   dependencies:
-    "@nger/ast.graphql" "^1.0.5"
-    "@nger/ast.tsc" "^1.0.5"
-    "@nger/plain" "^1.0.27"
+    "@nger/ast.graphql" "^1.1.1"
+    "@nger/ast.tsc" "^1.1.1"
+    "@nger/plain" "^1.1.1"
 
-"@nger/ast.tsc@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@nger/ast.tsc/-/ast.tsc-1.0.5.tgz#fd1ddc6bf4d0a6c37f846ddf4624eef7adb1fb9f"
-  integrity sha512-XwZePeeydaH+8OYWhjHEvaqt9yXWTx3NdVBOGRDA4MMw4H65AIJC3vjNprhfnQo5gJYdgsALSqmLRPTaOy3azA==
+"@nger/ast.tsc@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@nger/ast.tsc/-/ast.tsc-1.1.1.tgz#4ccd22e5bf747cff653301bfbd65711326964b0b"
+  integrity sha512-4Lrv2D/opuDqgbho+UsOQlkEemUwqyIy5j0ZPxuyTDBcMAH/JImH7uyf8m8nKAnF4fx1YkQ51ISg6m2EJiab2g==
   dependencies:
-    "@nger/plain" "^1.0.27"
+    "@nger/plain" "^1.1.1"
     ts-morph "^5.0.0"
 
-"@nger/cli@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@nger/cli/-/cli-1.0.0.tgz#dd20b4249be1b27d56eaca809d02631bbc4f693a"
-  integrity sha512-1jeZTT3Tu6LcPZJSOfT7/gZPbbrpA2Je9WAtkdDEpZDGnUPCTzY7fNrN8kWUP2RYDnUKmRfKwi0UHJTxwc7u9g==
+"@nger/cli@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@nger/cli/-/cli-1.1.3.tgz#1c7f6500230f7e87fee98e5df453615572861fae"
+  integrity sha512-yArfS50KCMBkxDbIdC9clsopSuxi+Z/Rczq8m/G5h6uW2hrNF/JOiTJ+wCk1/XsGAJ4r197nyhsy5ty3j88IHw==
   dependencies:
-    "@nger/decorator" "^1.0.1"
+    "@nger/decorator" "^1.1.1"
     "@types/yargs-parser" "^13.1.0"
     yargs-parser "^16.1.0"
 
-"@nger/decorator@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@nger/decorator/-/decorator-1.0.1.tgz#cf8a6de46c920106c908e1ac27d952f4d3105253"
-  integrity sha512-SUvkJZ7twApLjYGhmKSzw2RsJrHqe4FfBeSRnIjucV38lHwXlbkXIEFTDs9F8U6qtlBifU9KaMgX3UZ0ON6NiA==
+"@nger/decorator@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@nger/decorator/-/decorator-1.1.1.tgz#dd148ec7f452c9d342bfda058aaae83b5763dfe6"
+  integrity sha512-r75jHtunMyNeOaykCkqXfyAuGeBZCVojk72NPsRK+mfIg5wIra/cOcEqFy+KA/hzsoQtujwEjG8iuYgGGihX0Q==
   dependencies:
     reflect-metadata "^0.1.13"
 
-"@nger/plain@^1.0.27":
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/@nger/plain/-/plain-1.0.27.tgz#76fc13066902fb4cab882efc9942333369fa2b36"
-  integrity sha512-EctZ/aycizkgVdc5O9SqkCkhGPXpbUIsM/tcdLsep4pKBba9bgg15jTYDakEjnU3MLaN+ybi3Jd8Xa3oYiVueg==
+"@nger/plain@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@nger/plain/-/plain-1.1.1.tgz#3ce06d3e1faa39c070d90f9d8c57d233330083b8"
+  integrity sha512-ERK05lMBPDVVeqprtHjmgfRYID3paTXv5n5XsiU+Q0VHZluCatE8cpd9vGORHmnbKqpCLELhLruOsPRKOWHtdg==
   dependencies:
-    "@nger/decorator" "^1.0.1"
+    "@nger/decorator" "^1.1.1"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
